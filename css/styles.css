@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #d8d8d8;
+  z-index: 99;
+}
+
+.nav__content {
+  max-width: 1200px;
+  margin: 8px;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #a855f7;
+  transition: 0.3s;
+}
+nav .logo a:hover {
+  color: #4a008e;
+}
+
+nav .checkbox {
+  display: none;
+}
+
+nav input {
+  display: none;
+}
+nav .checkbox i {
+  font-size: 2rem;
+  color: #a855f7;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  transition: left 0.3s;
+}
+
+ul li a {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color: #1f2937;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  border-top-color: #ca8a04;
+  border-bottom-color: #ca8a04;
+  color: #ca8a04;
+}
+
+
+/* BAGIAN FOOTER*/
+.footer {
+  background-color: #a855f7;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__copy {
+  font-size: 0.8rem;
+}
+
+
+

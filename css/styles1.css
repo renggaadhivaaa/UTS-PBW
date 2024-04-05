@@ -1,0 +1,231 @@
+/* CSS BAGIAN PROFILE */
+.profil {
+    padding: 150px;
+    background-image: url('/images/bgrn.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.profil-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.profil_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.profil_img {
+    width: 350px; 
+    height: 300px;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px #4a008e;
+    transition: transform 0.3s ease;
+}
+
+.profil_img img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease;
+}
+
+.profil_img img:hover {
+    transform: scale(1.1);
+}
+
+.profil_text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    text-align: left; 
+    font-family: 'Poppins', sans-serif; 
+    margin-right: 30px; 
+}
+
+.profil_text p {
+    margin-bottom: 10px;
+}
+
+.profil_text strong {
+    font-weight: bold;
+}
+
+.profil_text span {
+    color: #a855f7;
+}
+
+/*CSS BAGIAN FORM PENDAFTARAN*/
+body {
+    background-image: url('/images/bgrn.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+h2 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="nim"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="submit"] {
+    background-color: #a855f7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #ca8a04;
+}
+
+/*CSS BAGIAN HOBI*/
+.hobi {
+    padding: 150px;
+    text-align: center;
+    background-image: url('/images/bgrn.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hobi .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+}
+
+.hobi_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobi_item {
+    margin: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.hobi_img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.hobi_item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 10px #4a008e;
+}
+
+.hobi_text {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.hobi_title {
+    color: #a855f7;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.hobi_description {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+
+/* CSS BAGIAN JADWAL PERKULIAHAN */
+#schedule {
+    padding: 150px ;
+    background-image: url('/images/bgrn.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#schedule h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+table {
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #666;
+}
+
+table th {
+    background-color: #a855f7;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* CSS BAGIAN TENTANG SAYA */
+.tentang-saya {
+    padding: 50px;
+  }
+  
+  .tentang-saya-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    margin-top: auto;
+    text-align: center;
+    color: #333;
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+  .tentang-saya-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tentang-saya-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/home.css">
+    <title>UTS |Rengga Adhiva</title>
+    <script>
+      let mahasiswa = {
+          namaDepan : true,
+          kelas : "TRPL"
+      }
+
+      console.log(mahasiswa.namaDepan);
+      let input =prompt("Masukan nama anda");
+  </script>
+  </head>
+  <body onload="alert('Hallo, Selamat Datang ' + input)">
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Rengga Adhiva</a></div>
+
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profil.html">Profil</a></li>
+          <li><a href="hobi.html">Hobi</a></li>
+          <li><a href="jadwal.html">Jadwal kuliah</a></li>
+          <li><a href="daftar.html">Daftar</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            Saya <span>Rengga<br/></span> 
+          </h1>
+          <p class="description">
+            Selamat datang di Website Pribadiku, Namaku Rengga, Aku seorang Mahasiswa
+            Semester 2 Jurusan Teknologi Rekayasa Perangkat Lunak di Politeknik
+            Negeri Madiun. 
+          </p>
+          <div class="action__btns">
+            <a href="profil.html" class="tentang">Profil Rengga</a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/IMG_1267.JPG" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__copy">&copy; 234311023 Rengga Adhiva. Uts Pemrograman Web.</p>
+        </div>
+    </footer>
+  </body>
+</html>
